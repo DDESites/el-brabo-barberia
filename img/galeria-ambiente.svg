@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" width="640" height="480" role="img" aria-label="Ilustração do brasão da El Brabo iluminado na parede da barbearia">
+  <title>Brasão iluminado na parede</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#171208"/>
+      <stop offset="100%" stop-color="#090909"/>
+    </linearGradient>
+    <linearGradient id="ouro" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F0CB7B"/>
+      <stop offset="45%" stop-color="#E1AE45"/>
+      <stop offset="100%" stop-color="#A87525"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0.5" cy="0.46" r="0.42">
+      <stop offset="0%" stop-color="#E1AE45" stop-opacity="0.26"/>
+      <stop offset="70%" stop-color="#A87525" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#090909" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="640" height="480" fill="url(#bg)"/>
+  <!-- tijolos da parede -->
+  <g stroke="#E1AE45" stroke-width="0.7" opacity="0.08">
+    <path d="M 0,60 L 640,60 M 0,120 L 640,120 M 0,180 L 640,180 M 0,240 L 640,240 M 0,300 L 640,300 M 0,360 L 640,360 M 0,420 L 640,420"/>
+    <path d="M 80,0 L 80,60 M 240,0 L 240,60 M 400,0 L 400,60 M 560,0 L 560,60"/>
+    <path d="M 0,60 L 0,120 M 160,60 L 160,120 M 320,60 L 320,120 M 480,60 L 480,120 M 640,60 L 640,120"/>
+    <path d="M 80,120 L 80,180 M 240,120 L 240,180 M 400,120 L 400,180 M 560,120 L 560,180"/>
+    <path d="M 0,180 L 0,240 M 160,180 L 160,240 M 320,180 L 320,240 M 480,180 L 480,240 M 640,180 L 640,240"/>
+  </g>
+  <rect width="640" height="480" fill="url(#halo)"/>
+
+  <!-- spot -->
+  <g>
+    <rect x="298" y="18" width="44" height="18" rx="7" fill="url(#ouro)"/>
+    <path d="M 312,36 L 328,36 L 356,150 L 284,150 Z" fill="#E1AE45" opacity="0.10"/>
+  </g>
+
+  <!-- brasão -->
+  <g transform="translate(320 250)">
+    <circle r="150" fill="#0E0C0B" stroke="url(#ouro)" stroke-width="7"/>
+    <circle r="134" fill="none" stroke="#A87525" stroke-width="2.2"/>
+    <g transform="translate(0 -122)">
+      <g transform="rotate(-24)">
+        <path d="M 0,4 L 12,-15" stroke="url(#ouro)" stroke-width="4" stroke-linecap="round"/>
+        <path d="M -1,-5 L 10,-21" stroke="url(#ouro)" stroke-width="4" stroke-linecap="round"/>
+        <circle cx="-4" cy="9" r="5.6" stroke="url(#ouro)" stroke-width="4" fill="none"/>
+        <circle cx="3" cy="12" r="5.6" stroke="url(#ouro)" stroke-width="4" fill="none"/>
+      </g>
+      <g transform="rotate(24) scale(-1 1)">
+        <path d="M 0,4 L 12,-15" stroke="url(#ouro)" stroke-width="4" stroke-linecap="round"/>
+        <path d="M -1,-5 L 10,-21" stroke="url(#ouro)" stroke-width="4" stroke-linecap="round"/>
+        <circle cx="-4" cy="9" r="5.6" stroke="url(#ouro)" stroke-width="4" fill="none"/>
+        <circle cx="3" cy="12" r="5.6" stroke="url(#ouro)" stroke-width="4" fill="none"/>
+      </g>
+    </g>
+    <g fill="#E8E5DF">
+      <g transform="translate(-70 -70) scale(0.66)"><path d="M 0,-11 L 3.2,-3.4 L 11,-3.4 L 4.6,1.3 L 6.8,8.9 L 0,4.4 L -6.8,8.9 L -4.6,1.3 L -11,-3.4 L -3.2,-3.4 Z"/></g>
+      <g transform="translate(-35 -82) scale(0.66)"><path d="M 0,-11 L 3.2,-3.4 L 11,-3.4 L 4.6,1.3 L 6.8,8.9 L 0,4.4 L -6.8,8.9 L -4.6,1.3 L -11,-3.4 L -3.2,-3.4 Z"/></g>
+      <g transform="translate(0 -86) scale(0.66)"><path d="M 0,-11 L 3.2,-3.4 L 11,-3.4 L 4.6,1.3 L 6.8,8.9 L 0,4.4 L -6.8,8.9 L -4.6,1.3 L -11,-3.4 L -3.2,-3.4 Z"/></g>
+      <g transform="translate(35 -82) scale(0.66)"><path d="M 0,-11 L 3.2,-3.4 L 11,-3.4 L 4.6,1.3 L 6.8,8.9 L 0,4.4 L -6.8,8.9 L -4.6,1.3 L -11,-3.4 L -3.2,-3.4 Z"/></g>
+      <g transform="translate(70 -70) scale(0.66)"><path d="M 0,-11 L 3.2,-3.4 L 11,-3.4 L 4.6,1.3 L 6.8,8.9 L 0,4.4 L -6.8,8.9 L -4.6,1.3 L -11,-3.4 L -3.2,-3.4 Z"/></g>
+    </g>
+    <path d="M -70,-14 C -74,-52 -48,-78 0,-78 C 48,-78 74,-52 70,-14 C 62,-36 48,-48 26,-51 C 38,-42 44,-32 42,-20 C 32,-40 12,-50 -8,-46 C -29,-43 -41,-31 -44,-14 C -58,-19 -62,-18 -70,-14 Z" fill="#E8E5DF"/>
+    <path d="M -56,28 C -56,6 -42,-8 -24,-10 C -11,-12 -2,-4 0,-4 C 2,-4 13,-12 28,-10 C 46,-8 56,6 56,28 C 56,66 30,98 0,98 C -30,98 -56,66 -56,28 Z" fill="#E8E5DF"/>
+    <path d="M -26,12 C -16,2 -6,5 0,12 C 6,5 16,2 26,12 C 18,24 8,24 0,15 C -8,24 -18,24 -26,12 Z" fill="#0E0C0B"/>
+    <text y="22" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="36" letter-spacing="4" fill="#D9D5CC">EL BRABO</text>
+    <text y="130" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="17" letter-spacing="8" fill="url(#ouro)">BARBEARIA</text>
+  </g>
+
+  <!-- banco inferior -->
+  <rect x="0" y="432" width="640" height="48" fill="#0c0a08"/>
+  <rect x="0" y="430" width="640" height="4" fill="url(#ouro)"/>
+</svg>

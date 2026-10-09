@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="El Brabo Barbería">
+  <defs>
+    <linearGradient id="o" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F0CB7B"/>
+      <stop offset="0.5" stop-color="#E1AE45"/>
+      <stop offset="1" stop-color="#A87525"/>
+    </linearGradient>
+    <path id="e" d="M 0,-6 L 1.7,-1.8 L 6,-1.8 L 2.5,0.7 L 3.7,4.8 L 0,2.4 L -3.7,4.8 L -2.5,0.7 L -6,-1.8 L -1.7,-1.8 Z"/>
+  </defs>
+  <rect width="128" height="128" rx="26" fill="#0B0A09"/>
+  <circle cx="64" cy="64" r="55" fill="none" stroke="url(#o)" stroke-width="5"/>
+  <g fill="#E8E5DF">
+    <use href="#e" transform="translate(38 36)"/>
+    <use href="#e" transform="translate(51 30)"/>
+    <use href="#e" transform="translate(64 28)"/>
+    <use href="#e" transform="translate(77 30)"/>
+    <use href="#e" transform="translate(90 36)"/>
+  </g>
+  <path d="M 36,56 C 34,40 46,30 64,30 C 82,30 94,40 92,55 C 88,48 82,44 74,43 C 79,46 81,50 80,54 C 76,47 68,44 61,45 C 54,46 50,50 49,55 C 45,53 40,54 36,56 Z" fill="#E8E5DF"/>
+  <path d="M 44,74 C 44,65 50,60 56,59 C 61,58 65,61 67,61 C 69,61 73,58 78,59 C 84,60 90,65 90,74 C 90,90 79,102 64,102 C 49,102 44,90 44,74 Z" fill="#E8E5DF"/>
+  <path d="M 55,66 C 59,62 63,63 64,66 C 65,63 69,62 73,66 C 69,70 66,70 64,67 C 62,70 59,70 55,66 Z" fill="#0B0A09"/>
+</svg>

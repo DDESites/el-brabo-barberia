@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A barbearia — El Brabo Barbería</title>
+  <meta name="description" content="Conheça a El Brabo Barbería: tradição de barbearia clássica, equipe comprometida e um ambiente pensado para o cuidado masculino.">
+  <meta name="theme-color" content="#090909">
+  <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Inter:wght@400;500;600;700&family=Italianno&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+<body>
+  <a class="pular-conteudo" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="marca" href="index.html">
+        <img class="marca__emblema" src="img/emblema.svg" alt="El Brabo Barbería — brasão da marca" width="52" height="52">
+        <span class="marca__lockup">
+          <span class="marca__nome">EL BRABO</span>
+          <span class="marca__sub">Barbería</span>
+        </span>
+      </a>
+
+      <nav class="nav-principal" id="nav-principal" aria-label="Navegação principal">
+        <a href="index.html">Início</a>
+        <a href="servicos.html">Serviços</a>
+        <a href="sobre.html" aria-current="page">A barbearia</a>
+        <a href="galeria.html">Galeria</a>
+        <a href="contato.html">Contato</a>
+      </nav>
+
+      <div class="header-acoes">
+        <a class="btn btn--dourado btn--pequeno btn--cabecalho"
+           data-zap="Olá! Vim pelo site da El Brabo Barbería e gostaria de agendar um horário."
+           href="#">Agendar horário</a>
+        <button class="btn-menu" id="btn-menu" aria-expanded="false" aria-controls="nav-principal" aria-label="Abrir menu">
+          <span class="barras" aria-hidden="true"><i></i><i></i><i></i></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="conteudo">
+
+    <section class="topo-pagina">
+      <div class="container">
+        <span class="acento">A barbearia</span>
+        <h1>Tradição, ofício e orgulho em cada atendimento</h1>
+        <p>
+          A El Brabo Barbería é um espaço de cuidado masculino onde a barbearia clássica
+          encontra o atendimento de hoje. Brasão, dourado e a cadeira de couro são o cenário —
+          o protagonista é o seu visual.
+        </p>
+        <div class="topo-pagina__trilho">
+          <a href="index.html">Início</a><span aria-hidden="true">/</span>
+          <a href="sobre.html" aria-current="page">A barbearia</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== História ===== -->
+    <section class="secao secao--preto">
+      <div class="container grade-meio">
+        <div class="conteudo-meio revelar">
+          <span class="acento">Nossa história</span>
+          <h2>Uma marca construída com capricho</h2>
+          <p>
+            O nome El Brabo carrega a personalidade da casa: atitude, técnica e respeito pelo
+            ofício. Cada detalhe do espaço — do brasão na parede às ferramentas organizadas na
+            bancada — existe para transmitir a mesma mensagem que o corte entrega: cuidado de
+            verdade.
+          </p>
+          <p>
+            A proposta é simples e séria: fazer o serviço bem feito, no tempo certo, com
+            atenção genuína a cada cliente que entra pela porta.
+          </p>
+          <p class="nota-legal">
+            Texto institucional provisório. O histórico oficial da marca será publicado após
+            aprovação da barbearia.
+          </p>
+        </div>
+
+        <div class="moldura-ouro revelar">
+          <img src="img/galeria-ambiente.svg" alt="Ilustração do brasão da El Brabo iluminado na parede da barbearia" width="640" height="480" loading="lazy">
+          <span class="moldura-ouro__etiqueta">O brasão</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Diferenciais ===== -->
+    <section class="secao secao--grafite">
+      <div class="container">
+        <div class="cabecalho-secao cabecalho-secao--centro revelar">
+          <span class="acento acento--centro">Diferenciais</span>
+          <h2>O que faz a diferença na El Brabo</h2>
+          <p>Compromissos reais do nosso atendimento — nada de promessa vazia.</p>
+          <div class="ornamento" aria-hidden="true"><span></span></div>
+        </div>
+
+        <div class="grade-destaques">
+          <article class="card-destaque revelar">
+            <span class="card-destaque__icone" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M8 3v4M16 3v4M3 11h18"/></svg>
+            </span>
+            <h3>Hora marcada</h3>
+            <p>Atendimento agendado, com horário confirmado pelo WhatsApp. Você chega e é atendido — sem fila e sem correria.</p>
+          </article>
+
+          <article class="card-destaque revelar">
+            <span class="card-destaque__icone" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.7 4.5 6v6c0 4.6 3.2 8.4 7.5 9.6 4.3-1.2 7.5-5 7.5-9.6V6z"/><path d="m9 12 2.2 2.2L15.5 10"/></svg>
+            </span>
+            <h3>Higiene em primeiro lugar</h3>
+            <p>Ferramentas higienizadas a cada cliente, toalhas limpas e um ambiente organizado do início ao fim do atendimento.</p>
+          </article>
+
+          <article class="card-destaque revelar">
+            <span class="card-destaque__icone" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></svg>
+            </span>
+            <h3>Orientação honesta</h3>
+            <p>A gente diz o que combina com o seu rosto e a sua rotina — inclusive quando o melhor é esperar um pouco mais entre os cortes.</p>
+          </article>
+
+          <article class="card-destaque revelar">
+            <span class="card-destaque__icone" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l2.6 5.6 6.1.8-4.5 4.2 1.2 6L12 16.7 6.6 19.6l1.2-6L3.3 9.4l6.1-.8Z"/></svg>
+            </span>
+            <h3>Ambiente premium</h3>
+            <p>Iluminação quente, cadeira de couro, produtos de qualidade e a atmosfera clássica que transforma o corte em experiência.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Equipe ===== -->
+    <section class="secao secao--preto">
+      <div class="container">
+        <div class="cabecalho-secao cabecalho-secao--centro revelar">
+          <span class="acento acento--centro">Equipe</span>
+          <h2>Quem está de pé na cadeira</h2>
+          <p>Profissionais comprometidos com o ofício e com o conforto de cada cliente.</p>
+          <div class="ornamento" aria-hidden="true"><span></span></div>
+        </div>
+
+        <div class="grade-equipe">
+          <article class="card-profissional revelar">
+            <span class="card-profissional__retrato" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.6-6.5 8-6.5s8 2.5 8 6.5"/></svg>
+            </span>
+            <h3>Barbeiro(a) <span class="a-confirmar">a confirmar</span></h3>
+            <span class="card-profissional__funcao">Corte e degradê</span>
+            <p>Nome, foto e especialidade serão publicados após a aprovação da equipe.</p>
+          </article>
+
+          <article class="card-profissional revelar">
+            <span class="card-profissional__retrato" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.6-6.5 8-6.5s8 2.5 8 6.5"/></svg>
+            </span>
+            <h3>Barbeiro(a) <span class="a-confirmar">a confirmar</span></h3>
+            <span class="card-profissional__funcao">Barba e navalha</span>
+            <p>Nome, foto e especialidade serão publicados após a aprovação da equipe.</p>
+          </article>
+
+          <article class="card-profissional revelar">
+            <span class="card-profissional__retrato" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.6-6.5 8-6.5s8 2.5 8 6.5"/></svg>
+            </span>
+            <h3>Barbeiro(a) <span class="a-confirmar">a confirmar</span></h3>
+            <span class="card-profissional__funcao">Corte e barba</span>
+            <p>Nome, foto e especialidade serão publicados após a aprovação da equipe.</p>
+          </article>
+        </div>
+
+        <div class="nota-legal nota-legal--centro revelar">
+          Fotos e nomes da equipe serão publicados somente com autorização expressa dos profissionais.
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Espaço ===== -->
+    <section class="secao secao--grafite">
+      <div class="container grade-meio grade-meio--invertida">
+        <div class="conteudo-meio revelar">
+          <span class="acento">O espaço</span>
+          <h2>Feito para você se sentir bem recebido</h2>
+          <p>
+            Preto, dourado e madeira: a casa combina com a identidade da marca e convida a
+            relaxar. Espelhos iluminados, cadeiras confortáveis e a bancada sempre pronta para
+            o próximo serviço.
+          </p>
+          <p>
+            Quer conferir de perto? Entre na galeria para ver o ambiente, os detalhes e os
+            trabalhos da equipe.
+          </p>
+          <p style="margin-top:28px;">
+            <a class="btn btn--escuro" href="galeria.html">Ver a galeria</a>
+          </p>
+        </div>
+
+        <div class="moldura-ouro revelar">
+          <img src="img/espaco.svg" alt="Ilustração do interior da El Brabo Barbería com cadeiras, espelhos e poste de barbeiro" width="960" height="640" loading="lazy">
+          <span class="moldura-ouro__etiqueta">Ambiente</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Chamada final ===== -->
+    <section class="secao secao--preto">
+      <div class="container">
+        <div class="painel-cta revelar">
+          <span class="acento acento--centro">Venha nos conhecer</span>
+          <h2>A melhor forma de conhecer é sentar na cadeira</h2>
+          <p>Agende um horário e experimente o atendimento da El Brabo Barbería de perto.</p>
+          <div class="painel-cta__acoes">
+            <a class="btn btn--dourado"
+               data-zap="Olá! Vim pelo site da El Brabo Barbería e gostaria de agendar um horário."
+               href="#">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5.1-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-3-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.6-6.1c-.3-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1-.2.3-.6.8-.8 1-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4 0-.5.1-.7l.4-.5c.1-.2.1-.3 0-.5l-.8-1.9c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.2s.9 2.5 1.1 2.7a11 11 0 0 0 4.2 3.7c.6.3 1 .4 1.4.5.6.2 1.1.2 1.5.1.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2l-.4-.4z"/></svg>
+              Agendar pelo WhatsApp
+            </a>
+            <a class="btn btn--contorno" href="contato.html">Ver localização</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="divisor-ouro" aria-hidden="true"></div>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grade">
+        <div>
+          <div class="footer-marca">
+            <img src="img/emblema.svg" alt="El Brabo Barbería" width="58" height="58">
+            <span class="marca__lockup">
+              <span class="marca__nome">EL BRABO</span>
+              <span class="marca__sub">Barbería</span>
+            </span>
+          </div>
+          <p>Barbearia clássica com atendimento atual: corte, barba e cuidados masculinos feitos com técnica e atenção ao detalhe.</p>
+          <div class="redes">
+            <a href="https://instagram.com/elbrabobarberia" target="_blank" rel="noopener" aria-label="Instagram da El Brabo Barbería">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor" stroke="none"/></svg>
+            </a>
+            <a data-zap="Olá! Vim pelo site da El Brabo Barbería." href="#" aria-label="Falar no WhatsApp com a El Brabo Barbería">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5.1-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-3-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.6-6.1c-.3-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1-.2.3-.6.8-.8 1-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4 0-.5.1-.7l.4-.5c.1-.2.1-.3 0-.5l-.8-1.9c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.2s.9 2.5 1.1 2.7a11 11 0 0 0 4.2 3.7c.6.3 1 .4 1.4.5.6.2 1.1.2 1.5.1.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2l-.4-.4z"/></svg>
+            </a>
+            <a href="tel:+556199999999" aria-label="Ligar para a El Brabo Barbería">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div>
+          <h2>Navegação</h2>
+          <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="servicos.html">Serviços</a></li>
+            <li><a href="sobre.html">A barbearia</a></li>
+            <li><a href="galeria.html">Galeria</a></li>
+            <li><a href="contato.html">Contato</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h2>Serviços</h2>
+          <ul>
+            <li><a href="servicos.html#corte">Corte de cabelo</a></li>
+            <li><a href="servicos.html#barba">Barba</a></li>
+            <li><a href="servicos.html#corte-barba">Corte e barba</a></li>
+            <li><a href="servicos.html#acabamento">Acabamento</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h2>Contato</h2>
+          <ul>
+            <li><a href="tel:+556199999999">(61) 99999-9999</a> <span class="a-confirmar">a confirmar</span></li>
+            <li><a href="https://instagram.com/elbrabobarberia" target="_blank" rel="noopener">@elbrabobarberia</a> <span class="a-confirmar">a confirmar</span></li>
+            <li>Endereço completo <span class="a-confirmar">a confirmar</span></li>
+            <li>Seg — Sáb <span class="a-confirmar">horário a confirmar</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-obs">
+        <span>© <span id="ano">2026</span> El Brabo Barbería. Todos os direitos reservados.</span>
+        <span>Preços, horários e localização são confirmados pelo atendimento.</span>
+      </div>
+    </div>
+  </footer>
+
+  <a class="zap-flutuante" data-zap="Olá! Vim pelo site da El Brabo Barbería e gostaria de agendar um horário."
+     href="#" aria-label="Agendar horário pelo WhatsApp da El Brabo Barbería">
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5.1-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-3-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.6-6.1c-.3-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1-.2.3-.6.8-.8 1-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4 0-.5.1-.7l.4-.5c.1-.2.1-.3 0-.5l-.8-1.9c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.2s.9 2.5 1.1 2.7a11 11 0 0 0 4.2 3.7c.6.3 1 .4 1.4.5.6.2 1.1.2 1.5.1.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2l-.4-.4z"/></svg>
+    <span>Agendar horário</span>
+  </a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" width="640" height="480" role="img" aria-label="Ilustração da equipe da El Brabo Barbería com três barbeiros de avental escuro">
+  <title>Nossa equipe</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#151109"/>
+      <stop offset="100%" stop-color="#090909"/>
+    </linearGradient>
+    <linearGradient id="ouro" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F0CB7B"/>
+      <stop offset="45%" stop-color="#E1AE45"/>
+      <stop offset="100%" stop-color="#A87525"/>
+    </linearGradient>
+    <linearGradient id="avental" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#221c16"/>
+      <stop offset="100%" stop-color="#12100c"/>
+    </linearGradient>
+    <radialGradient id="luz" cx="0.5" cy="0.3" r="0.75">
+      <stop offset="0%" stop-color="#E1AE45" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#090909" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="640" height="480" fill="url(#bg)"/>
+  <rect width="640" height="480" fill="url(#luz)"/>
+  <rect x="22" y="22" width="596" height="436" rx="8" fill="none" stroke="#A87525" stroke-width="1.6" opacity="0.55"/>
+
+  <!-- três barbeiros -->
+  <!-- esquerda -->
+  <g transform="translate(170 300)">
+    <circle cx="0" cy="-118" r="46" fill="#3a2f26"/>
+    <path d="M -46,-132 C -44,-170 -14,-186 12,-182 C 42,-178 50,-152 46,-126 C 36,-148 12,-158 -12,-154 C -32,-151 -42,-142 -46,-132 Z" fill="#1d1710"/>
+    <path d="M -34,-104 C -30,-78 -6,-64 14,-70 C 34,-76 42,-94 40,-112 C 30,-98 8,-92 -12,-94 C -24,-95 -30,-99 -34,-104 Z" fill="#1d1710"/>
+    <path d="M -58,150 C -58,44 -34,8 0,8 C 34,8 58,44 58,150 Z" fill="url(#avental)" stroke="#A87525" stroke-width="2"/>
+    <path d="M -18,10 L -8,60 L 8,60 L 18,10" fill="#0e0c09" stroke="#A87525" stroke-width="1.4"/>
+    <rect x="-8" y="60" width="16" height="34" rx="4" fill="#E1AE45" opacity="0.85"/>
+    <path d="M -40,-4 C -20,4 20,4 40,-4 L 44,20 C 20,30 -20,30 -44,20 Z" fill="#161209" stroke="#A87525" stroke-width="1.6"/>
+  </g>
+  <!-- centro (mais alto) -->
+  <g transform="translate(320 274)">
+    <circle cx="0" cy="-124" r="50" fill="#4a3c30"/>
+    <path d="M -50,-138 C -48,-180 -14,-198 16,-194 C 50,-190 58,-160 54,-132 C 42,-156 14,-168 -14,-164 C -36,-161 -46,-150 -50,-138 Z" fill="#241d16"/>
+    <path d="M -38,-108 C -34,-78 -8,-62 14,-68 C 38,-74 46,-94 44,-116 C 32,-100 8,-94 -14,-96 C -28,-97 -34,-102 -38,-108 Z" fill="#241d16"/>
+    <path d="M -64,168 C -64,46 -38,10 0,10 C 38,10 64,46 64,168 Z" fill="url(#avental)" stroke="#A87525" stroke-width="2.2"/>
+    <path d="M -20,10 L -9,66 L 9,66 L 20,10" fill="#0e0c09" stroke="#A87525" stroke-width="1.4"/>
+    <g transform="translate(0 92) scale(0.2)">
+      <circle r="120" fill="#0E0C0B" stroke="#E1AE45" stroke-width="18"/>
+      <path d="M -60,-14 C -62,-50 -34,-72 0,-72 C 34,-72 62,-50 60,-14 C 52,-36 38,-46 18,-48 C 29,-40 34,-30 32,-20 C 22,-38 4,-46 -14,-43 C -33,-40 -44,-28 -46,-14 Z" fill="#E8E5DF"/>
+      <path d="M -48,24 C -48,6 -34,-4 -20,-6 C -8,-8 0,0 8,0 C 16,0 28,-8 42,-6 C 56,-4 68,6 68,24 C 68,58 40,88 0,88 C -40,88 -68,58 -68,24 Z" fill="#E8E5DF"/>
+    </g>
+    <path d="M -44,-4 C -22,6 22,6 44,-4 L 48,22 C 22,34 -22,34 -48,22 Z" fill="#161209" stroke="#A87525" stroke-width="1.6"/>
+  </g>
+  <!-- direita -->
+  <g transform="translate(470 300)">
+    <circle cx="0" cy="-118" r="46" fill="#3a2f26"/>
+    <path d="M -46,-130 C -44,-168 -12,-184 14,-180 C 44,-176 50,-148 46,-124 C 38,-148 12,-158 -12,-154 C -32,-151 -42,-140 -46,-130 Z" fill="#161209"/>
+    <path d="M -36,-100 C -30,-72 -4,-58 18,-66 C 36,-72 44,-88 42,-108 C 30,-92 6,-86 -14,-88 C -26,-89 -32,-94 -36,-100 Z" fill="#161209"/>
+    <path d="M -34,-92 L 34,-92" stroke="#E1AE45" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+    <path d="M -58,150 C -58,44 -34,8 0,8 C 34,8 58,44 58,150 Z" fill="url(#avental)" stroke="#A87525" stroke-width="2"/>
+    <path d="M -18,10 L -8,60 L 8,60 L 18,10" fill="#0e0c09" stroke="#A87525" stroke-width="1.4"/>
+    <rect x="-8" y="60" width="16" height="34" rx="4" fill="#E1AE45" opacity="0.85"/>
+    <path d="M -40,-4 C -20,4 20,4 40,-4 L 44,20 C 20,30 -20,30 -44,20 Z" fill="#161209" stroke="#A87525" stroke-width="1.6"/>
+  </g>
+
+  <!-- piso -->
+  <rect x="22" y="420" width="596" height="38" fill="#0c0a08"/>
+  <rect x="22" y="418" width="596" height="4" fill="url(#ouro)"/>
+
+  <!-- estrelas -->
+  <g fill="url(#ouro)">
+    <g transform="translate(96 96) scale(0.6)"><path d="M 0,-11 L 3.2,-3.4 L 11,-3.4 L 4.6,1.3 L 6.8,8.9 L 0,4.4 L -6.8,8.9 L -4.6,1.3 L -11,-3.4 L -3.2,-3.4 Z"/></g>
+    <g transform="translate(544 96) scale(0.6)"><path d="M 0,-11 L 3.2,-3.4 L 11,-3.4 L 4.6,1.3 L 6.8,8.9 L 0,4.4 L -6.8,8.9 L -4.6,1.3 L -11,-3.4 L -3.2,-3.4 Z"/></g>
+  </g>
+</svg>

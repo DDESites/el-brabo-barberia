@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" width="640" height="480" role="img" aria-label="Ilustração de perfil masculino com corte degradê e contorno marcado">
+  <title>Corte degradê com contorno</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#151109"/>
+      <stop offset="100%" stop-color="#090909"/>
+    </linearGradient>
+    <linearGradient id="ouro" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F0CB7B"/>
+      <stop offset="45%" stop-color="#E1AE45"/>
+      <stop offset="100%" stop-color="#A87525"/>
+    </linearGradient>
+    <linearGradient id="couro" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2a2320"/>
+      <stop offset="100%" stop-color="#14100e"/>
+    </linearGradient>
+    <radialGradient id="luz" cx="0.4" cy="0.35" r="0.7">
+      <stop offset="0%" stop-color="#E1AE45" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#090909" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="640" height="480" fill="url(#bg)"/>
+  <rect width="640" height="480" fill="url(#luz)"/>
+  <rect x="22" y="22" width="596" height="436" rx="8" fill="none" stroke="#A87525" stroke-width="1.6" opacity="0.55"/>
+
+  <!-- perfil -->
+  <g transform="translate(320 250)">
+    <!-- ombro / capa -->
+    <path d="M -190,220 C -180,130 -110,86 -30,80 L 60,80 C 130,96 170,150 176,220 Z" fill="url(#couro)" stroke="#A87525" stroke-width="2"/>
+    <path d="M -60,90 C -30,86 20,88 52,98" stroke="#E1AE45" stroke-width="2" fill="none" opacity="0.5"/>
+    <!-- pescoço -->
+    <path d="M -40,60 L 40,60 L 44,96 L -36,96 Z" fill="#3a2f26"/>
+    <!-- cabeça -->
+    <path d="M -78,-30 C -78,-96 -30,-128 22,-122 C 74,-116 96,-72 90,-22 C 86,10 96,26 96,44 C 96,66 80,76 62,72 C 54,86 34,94 8,92 C -32,88 -60,62 -64,26 C -68,-2 -78,-8 -78,-30 Z" fill="#4a3c30"/>
+    <!-- cabelo degradê -->
+    <path d="M -76,-34 C -76,-100 -26,-130 24,-124 C 76,-118 94,-76 88,-30 C 80,-62 60,-84 24,-90 C -14,-96 -54,-80 -76,-34 Z" fill="#241d16"/>
+    <path d="M -70,-40 C -62,-84 -22,-112 24,-108 C 62,-105 82,-80 84,-48" stroke="#171209" stroke-width="8" fill="none" stroke-linecap="round" opacity="0.7"/>
+    <!-- topete -->
+    <path d="M -76,-46 C -80,-96 -34,-130 16,-128 C 60,-126 88,-102 92,-62 C 76,-92 44,-104 10,-100 C -26,-96 -60,-78 -76,-46 Z" fill="#2f2519"/>
+    <path d="M -60,-84 C -40,-104 -8,-114 24,-110" stroke="#4a3a22" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <!-- barba aparada / contorno -->
+    <path d="M -60,20 C -48,58 -14,80 24,76 C 52,72 68,54 70,30 C 60,48 36,58 6,56 C -24,54 -48,42 -60,20 Z" fill="#241d16"/>
+    <path d="M 92,-16 C 98,4 94,24 84,36" stroke="#241d16" stroke-width="7" fill="none" stroke-linecap="round"/>
+    <!-- orelha -->
+    <path d="M -52,-8 C -66,-14 -74,0 -66,14 C -60,24 -48,24 -44,16" fill="#3a2f26"/>
+    <!-- olho -->
+    <path d="M 34,-38 L 60,-40" stroke="#171209" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="58" cy="-24" r="4.5" fill="#171209"/>
+    <!-- nariz / boca -->
+    <path d="M 90,-18 C 100,-8 100,4 90,8" stroke="#2a211a" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M 62,26 C 72,22 80,24 84,30" stroke="#2a211a" stroke-width="4" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- máquina dourada ao lado -->
+  <g transform="translate(128 356) rotate(-18)">
+    <rect x="-46" y="-18" width="92" height="40" rx="10" fill="url(#ouro)"/>
+    <rect x="-52" y="-12" width="14" height="28" rx="4" fill="#d9d3c4"/>
+    <g stroke="#8a6414" stroke-width="2">
+      <path d="M -46,-8 L -40,-8 M -46,0 L -40,0 M -46,8 L -40,8"/>
+    </g>
+    <rect x="30" y="-10" width="22" height="24" rx="6" fill="#3c2812"/>
+  </g>
+
+  <!-- estrelas -->
+  <g fill="url(#ouro)">
+    <g transform="translate(520 96) scale(0.7)"><path d="M 0,-11 L 3.2,-3.4 L 11,-3.4 L 4.6,1.3 L 6.8,8.9 L 0,4.4 L -6.8,8.9 L -4.6,1.3 L -11,-3.4 L -3.2,-3.4 Z"/></g>
+    <g transform="translate(556 128) scale(0.55)"><path d="M 0,-11 L 3.2,-3.4 L 11,-3.4 L 4.6,1.3 L 6.8,8.9 L 0,4.4 L -6.8,8.9 L -4.6,1.3 L -11,-3.4 L -3.2,-3.4 Z"/></g>
+    <g transform="translate(500 148) scale(0.45)"><path d="M 0,-11 L 3.2,-3.4 L 11,-3.4 L 4.6,1.3 L 6.8,8.9 L 0,4.4 L -6.8,8.9 L -4.6,1.3 L -11,-3.4 L -3.2,-3.4 Z"/></g>
+  </g>
+</svg>

@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1120" width="900" height="1120" role="img" aria-label="Cartaz da El Brabo Barbería com brasão dourado, cadeira de barbeiro e frase Estilo e tradição em cada corte">
+  <title>El Brabo Barbería — cartaz da marca</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#16120c"/>
+      <stop offset="55%" stop-color="#0d0b09"/>
+      <stop offset="100%" stop-color="#090909"/>
+    </linearGradient>
+    <radialGradient id="brilho" cx="0.5" cy="0.32" r="0.62">
+      <stop offset="0%" stop-color="#E1AE45" stop-opacity="0.20"/>
+      <stop offset="55%" stop-color="#A87525" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#090909" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ouro" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F0CB7B"/>
+      <stop offset="45%" stop-color="#E1AE45"/>
+      <stop offset="100%" stop-color="#A87525"/>
+    </linearGradient>
+    <linearGradient id="couro" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2a2320"/>
+      <stop offset="100%" stop-color="#14100e"/>
+    </linearGradient>
+    <linearGradient id="aco" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#efece4"/>
+      <stop offset="100%" stop-color="#8d887e"/>
+    </linearGradient>
+    <pattern id="listras" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="24" height="24" fill="#100d0b"/>
+      <rect width="12" height="24" fill="#C9922F"/>
+    </pattern>
+    <pattern id="grade" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="1" height="16" fill="#E1AE45" opacity="0.05"/>
+    </pattern>
+  </defs>
+
+  <rect width="900" height="1120" fill="url(#bg)"/>
+  <rect width="900" height="1120" fill="url(#grade)"/>
+  <rect width="900" height="1120" fill="url(#brilho)"/>
+
+  <!-- moldura -->
+  <rect x="34" y="34" width="832" height="1052" rx="10" fill="none" stroke="url(#ouro)" stroke-width="3"/>
+  <rect x="48" y="48" width="804" height="1024" rx="6" fill="none" stroke="#A87525" stroke-width="1.4" opacity="0.75"/>
+
+  <!-- cantos arabescados -->
+  <g fill="none" stroke="url(#ouro)" stroke-width="3.4" stroke-linecap="round">
+    <path d="M 70,120 C 70,88 88,70 120,70"/>
+    <path d="M 84,128 C 84,102 102,84 128,84"/>
+    <circle cx="112" cy="112" r="4.5" fill="url(#ouro)" stroke="none"/>
+    <path d="M 830,120 C 830,88 812,70 780,70"/>
+    <path d="M 816,128 C 816,102 798,84 772,84"/>
+    <circle cx="788" cy="112" r="4.5" fill="url(#ouro)" stroke="none"/>
+    <path d="M 70,1000 C 70,1032 88,1050 120,1050"/>
+    <path d="M 84,992 C 84,1018 102,1036 128,1036"/>
+    <circle cx="112" cy="1008" r="4.5" fill="url(#ouro)" stroke="none"/>
+    <path d="M 830,1000 C 830,1032 812,1050 780,1050"/>
+    <path d="M 816,992 C 816,1018 798,1036 772,1036"/>
+    <circle cx="788" cy="1008" r="4.5" fill="url(#ouro)" stroke="none"/>
+  </g>
+
+  <!-- postes de barbeiro laterais -->
+  <g>
+    <rect x="76" y="430" width="34" height="250" rx="17" fill="url(#listras)" stroke="url(#ouro)" stroke-width="3"/>
+    <rect x="790" y="430" width="34" height="250" rx="17" fill="url(#listras)" stroke="url(#ouro)" stroke-width="3"/>
+  </g>
+
+  <!-- estrelas do topo -->
+  <g fill="url(#ouro)">
+    <g transform="translate(330 108) scale(0.85)"><path d="M 0,-11 L 3.2,-3.4 L 11,-3.4 L 4.6,1.3 L 6.8,8.9 L 0,4.4 L -6.8,8.9 L -4.6,1.3 L -11,-3.4 L -3.2,-3.4 Z"/></g>
+    <g transform="translate(382 96) scale(0.85)"><path d="M 0,-11 L 3.2,-3.4 L 11,-3.4 L 4.6,1.3 L 6.8,8.9 L 0,4.4 L -6.8,8.9 L -4.6,1.3 L -11,-3.4 L -3.2,-3.4 Z"/></g>
+    <g transform="translate(450 92) scale(1)"><path d="M 0,-11 L 3.2,-3.4 L 11,-3.4 L 4.6,1.3 L 6.8,8.9 L 0,4.4 L -6.8,8.9 L -4.6,1.3 L -11,-3.4 L -3.2,-3.4 Z"/></g>
+    <g transform="translate(518 96) scale(0.85)"><path d="M 0,-11 L 3.2,-3.4 L 11,-3.4 L 4.6,1.3 L 6.8,8.9 L 0,4.4 L -6.8,8.9 L -4.6,1.3 L -11,-3.4 L -3.2,-3.4 Z"/></g>
+    <g transform="translate(570 108) scale(0.85)"><path d="M 0,-11 L 3.2,-3.4 L 11,-3.4 L 4.6,1.3 L 6.8,8.9 L 0,4.4 L -6.8,8.9 L -4.6,1.3 L -11,-3.4 L -3.2,-3.4 Z"/></g>
+  </g>
+
+  <!-- brasão em destaque -->
+  <g transform="translate(450 330)">
+    <circle r="176" fill="#0E0C0B" stroke="url(#ouro)" stroke-width="7"/>
+    <circle r="158" fill="none" stroke="#A87525" stroke-width="2.4"/>
+    <!-- tesouras cruzadas -->
+    <g transform="translate(0 -150)">
+      <g transform="rotate(-24)">
+        <path d="M 0,4 L 14,-17" stroke="url(#ouro)" stroke-width="4.6" stroke-linecap="round"/>
+        <path d="M -1,-6 L 11,-24" stroke="url(#ouro)" stroke-width="4.6" stroke-linecap="round"/>
+        <circle cx="-5" cy="10" r="6.4" stroke="url(#ouro)" stroke-width="4.6" fill="none"/>
+        <circle cx="3" cy="13" r="6.4" stroke="url(#ouro)" stroke-width="4.6" fill="none"/>
+      </g>
+      <g transform="rotate(24) scale(-1 1)">
+        <path d="M 0,4 L 14,-17" stroke="url(#ouro)" stroke-width="4.6" stroke-linecap="round"/>
+        <path d="M -1,-6 L 11,-24" stroke="url(#ouro)" stroke-width="4.6" stroke-linecap="round"/>
+        <circle cx="-5" cy="10" r="6.4" stroke="url(#ouro)" stroke-width="4.6" fill="none"/>
+        <circle cx="3" cy="13" r="6.4" stroke="url(#ouro)" stroke-width="4.6" fill="none"/>
+      </g>
+    </g>
+    <!-- estrelas -->
+    <g fill="#E8E5DF">
+      <g transform="translate(-84 -84) scale(0.8)"><path d="M 0,-11 L 3.2,-3.4 L 11,-3.4 L 4.6,1.3 L 6.8,8.9 L 0,4.4 L -6.8,8.9 L -4.6,1.3 L -11,-3.4 L -3.2,-3.4 Z"/></g>
+      <g transform="translate(-42 -98) scale(0.8)"><path d="M 0,-11 L 3.2,-3.4 L 11,-3.4 L 4.6,1.3 L 6.8,8.9 L 0,4.4 L -6.8,8.9 L -4.6,1.3 L -11,-3.4 L -3.2,-3.4 Z"/></g>
+      <g transform="translate(0 -103) scale(0.8)"><path d="M 0,-11 L 3.2,-3.4 L 11,-3.4 L 4.6,1.3 L 6.8,8.9 L 0,4.4 L -6.8,8.9 L -4.6,1.3 L -11,-3.4 L -3.2,-3.4 Z"/></g>
+      <g transform="translate(42 -98) scale(0.8)"><path d="M 0,-11 L 3.2,-3.4 L 11,-3.4 L 4.6,1.3 L 6.8,8.9 L 0,4.4 L -6.8,8.9 L -4.6,1.3 L -11,-3.4 L -3.2,-3.4 Z"/></g>
+      <g transform="translate(84 -84) scale(0.8)"><path d="M 0,-11 L 3.2,-3.4 L 11,-3.4 L 4.6,1.3 L 6.8,8.9 L 0,4.4 L -6.8,8.9 L -4.6,1.3 L -11,-3.4 L -3.2,-3.4 Z"/></g>
+    </g>
+    <!-- cabelo -->
+    <path d="M -84,-16 C -88,-62 -58,-92 0,-92 C 58,-92 88,-62 84,-16 C 76,-40 60,-54 36,-57 C 49,-48 55,-36 53,-24 C 42,-46 20,-56 -2,-52 C -25,-48 -38,-34 -41,-16 C -56,-22 -74,-20 -84,-16 Z" fill="#E8E5DF"/>
+    <!-- barba -->
+    <path d="M -68,32 C -68,8 -52,-6 -34,-8 C -19,-10 -8,-2 0,-2 C 8,-2 19,-10 34,-8 C 52,-6 68,8 68,32 C 68,80 38,118 0,118 C -38,118 -68,80 -68,32 Z" fill="#E8E5DF"/>
+    <path d="M -32,14 C -20,2 -8,6 0,14 C 8,6 20,2 32,14 C 22,28 10,28 0,18 C -10,28 -22,28 -32,14 Z" fill="#0E0C0B"/>
+    <!-- nome -->
+    <text y="26" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="44" letter-spacing="5" fill="#D9D5CC">EL BRABO</text>
+    <text y="158" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="20" letter-spacing="9" fill="url(#ouro)">BARBEARIA</text>
+  </g>
+
+  <!-- cadeira de barbeiro -->
+  <g transform="translate(450 830)">
+    <!-- base -->
+    <ellipse cx="0" cy="188" rx="120" ry="16" fill="#000" opacity="0.55"/>
+    <path d="M -34,180 L -20,120 L 20,120 L 34,180 Z" fill="url(#aco)" opacity="0.85"/>
+    <rect x="-52" y="172" width="104" height="12" rx="6" fill="#2c2622"/>
+    <!-- encosto -->
+    <rect x="-72" y="-96" width="144" height="150" rx="26" fill="url(#couro)" stroke="url(#ouro)" stroke-width="2.6"/>
+    <!-- costura losango -->
+    <g stroke="#E1AE45" stroke-width="1" opacity="0.5" fill="none">
+      <path d="M -72,-46 L -24,-96 M -72,4 L -24,-46 M -72,54 L -24,4 M 72,-46 L 24,-96 M 72,4 L 24,-46 M 72,54 L 24,4"/>
+      <path d="M -72,-46 L -24,4 M -72,4 L -24,54 M 72,-46 L 24,4 M 72,4 L 24,54"/>
+    </g>
+    <!-- assento -->
+    <rect x="-84" y="54" width="168" height="52" rx="20" fill="url(#couro)" stroke="url(#ouro)" stroke-width="2.6"/>
+    <!-- apoios -->
+    <rect x="-116" y="40" width="26" height="66" rx="12" fill="#241f1b" stroke="#A87525" stroke-width="1.6"/>
+    <rect x="90" y="40" width="26" height="66" rx="12" fill="#241f1b" stroke="#A87525" stroke-width="1.6"/>
+    <!-- apoiacabeça com mini brasão -->
+    <rect x="-40" y="-140" width="80" height="38" rx="12" fill="url(#couro)" stroke="url(#ouro)" stroke-width="2.4"/>
+    <g transform="translate(0 -121) scale(0.16)">
+      <circle r="120" fill="#0E0C0B" stroke="url(#ouro)" stroke-width="18"/>
+      <path d="M -60,-14 C -62,-50 -34,-72 0,-72 C 34,-72 62,-50 60,-14 C 52,-36 38,-46 18,-48 C 29,-40 34,-30 32,-20 C 22,-38 4,-46 -14,-43 C -33,-40 -44,-28 -46,-14 C -58,-18 -52,-16 -60,-14 Z" fill="#E8E5DF"/>
+      <path d="M -48,24 C -48,6 -34,-4 -20,-6 C -8,-8 0,0 8,0 C 16,0 28,-8 42,-6 C 56,-4 68,6 68,24 C 68,58 40,88 0,88 C -40,88 -68,58 -68,24 Z" fill="#E8E5DF"/>
+      <text y="14" text-anchor="middle" font-family="Georgia, serif" font-size="38" letter-spacing="4" fill="#D9D5CC">EL BRABO</text>
+    </g>
+  </g>
+
+  <!-- chamada -->
+  <g text-anchor="middle" font-family="Georgia, 'Times New Roman', serif">
+    <text x="450" y="1000" font-size="40" letter-spacing="4" fill="#E8E5DF">Estilo e tradição</text>
+    <text x="450" y="1046" font-size="40" letter-spacing="4" fill="url(#ouro)">em cada corte</text>
+  </g>
+</svg>

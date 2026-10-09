@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Brasão da El Brabo Barbería: tesouras cruzadas, cinco estrelas, rosto com barba e detalhes dourados">
+  <defs>
+    <linearGradient id="ouroMetal" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F0CB7B"/>
+      <stop offset="0.45" stop-color="#E1AE45"/>
+      <stop offset="1" stop-color="#A87525"/>
+    </linearGradient>
+    <linearGradient id="ouroEscuro" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#A87525"/>
+      <stop offset="1" stop-color="#E1AE45"/>
+    </linearGradient>
+    <pattern id="listras" width="14" height="14" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="14" height="14" fill="#141110"/>
+      <rect width="7" height="14" fill="#C9922F"/>
+    </pattern>
+    <path id="estrela" d="M 0,-11 L 3.2,-3.4 L 11,-3.4 L 4.6,1.3 L 6.8,8.9 L 0,4.4 L -6.8,8.9 L -4.6,1.3 L -11,-3.4 L -3.2,-3.4 Z"/>
+    <g id="tesoura">
+      <path d="M 0,4 L 15,-18" stroke="url(#ouroMetal)" stroke-width="5" stroke-linecap="round" fill="none"/>
+      <path d="M -1,-6 L 12,-25" stroke="url(#ouroMetal)" stroke-width="5" stroke-linecap="round" fill="none"/>
+      <circle cx="-5" cy="10" r="7" stroke="url(#ouroMetal)" stroke-width="5" fill="none"/>
+      <circle cx="3" cy="14" r="7" stroke="url(#ouroMetal)" stroke-width="5" fill="none"/>
+      <circle cx="3" cy="0" r="2.6" fill="#F0CB7B"/>
+    </g>
+  </defs>
+
+  <!-- fundo -->
+  <circle cx="256" cy="256" r="252" fill="#0B0A09"/>
+
+  <!-- arabescos laterais -->
+  <g fill="none" stroke="url(#ouroEscuro)" stroke-width="6" stroke-linecap="round">
+    <path d="M 96,86 C 58,102 44,140 62,168 C 74,186 98,186 108,168"/>
+    <path d="M 62,168 C 40,172 30,152 42,136"/>
+    <path d="M 416,86 C 454,102 468,140 450,168 C 438,186 414,186 404,168"/>
+    <path d="M 450,168 C 472,172 482,152 470,136"/>
+    <path d="M 92,426 C 56,410 44,376 62,352 C 74,336 96,338 104,354"/>
+    <path d="M 420,426 C 456,410 468,376 450,352 C 438,336 416,338 408,354"/>
+  </g>
+
+  <!-- postes de barbeiro laterais -->
+  <g>
+    <rect x="26" y="206" width="26" height="112" rx="13" fill="url(#listras)" stroke="url(#ouroMetal)" stroke-width="4"/>
+    <rect x="460" y="206" width="26" height="112" rx="13" fill="url(#listras)" stroke="url(#ouroMetal)" stroke-width="4"/>
+  </g>
+
+  <!-- anéis do brasão -->
+  <circle cx="256" cy="256" r="212" fill="#0E0C0B" stroke="url(#ouroMetal)" stroke-width="9"/>
+  <circle cx="256" cy="256" r="194" fill="none" stroke="#A87525" stroke-width="3"/>
+
+  <!-- tesouras cruzadas no topo -->
+  <g transform="translate(256 62)">
+    <use href="#tesoura" transform="rotate(-24) translate(-4 0)"/>
+    <use href="#tesoura" transform="rotate(24) scale(-1 1) translate(-4 0)"/>
+  </g>
+
+  <!-- estrelas em arco -->
+  <g fill="#E8E5DF">
+    <use href="#estrela" transform="translate(160 120)"/>
+    <use href="#estrela" transform="translate(207 100)"/>
+    <use href="#estrela" transform="translate(256 93)"/>
+    <use href="#estrela" transform="translate(305 100)"/>
+    <use href="#estrela" transform="translate(352 120)"/>
+  </g>
+
+  <!-- cabelo (topete) -->
+  <path d="M 152,212 C 146,140 190,102 256,102 C 322,102 368,134 364,206 C 354,180 334,162 304,158 C 320,168 328,182 326,196 C 312,172 284,160 258,164 C 230,168 214,184 210,204 C 192,198 168,202 152,212 Z"
+        fill="#E8E5DF"/>
+
+  <!-- barba -->
+  <path d="M 172,272 C 172,242 192,226 214,223 C 232,220 246,229 256,229 C 266,229 280,220 298,223 C 320,226 340,242 340,272 C 340,330 306,376 256,376 C 206,376 172,330 172,272 Z"
+        fill="#E8E5DF"/>
+  <path d="M 222,254 C 236,240 250,244 256,254 C 262,244 276,240 290,254 C 278,268 264,270 256,260 C 248,270 234,268 222,254 Z"
+        fill="#0B0A09"/>
+
+  <!-- nome -->
+  <text x="256" y="262" text-anchor="middle"
+        font-family="Georgia, 'Times New Roman', serif" font-size="58" letter-spacing="7"
+        fill="#D9D5CC">EL BRABO</text>
+
+  <!-- faixa BARBEARIA -->
+  <text x="256" y="418" text-anchor="middle"
+        font-family="Georgia, 'Times New Roman', serif" font-size="27" letter-spacing="12"
+        fill="url(#ouroMetal)">BARBEARIA</text>
+  <path d="M 138,410 L 196,410 M 316,410 L 374,410" stroke="#A87525" stroke-width="3" stroke-linecap="round"/>
+</svg>

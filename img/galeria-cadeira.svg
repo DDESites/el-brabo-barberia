@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" width="640" height="480" role="img" aria-label="Ilustração da cadeira de barbeiro clássica com couro escuro e detalhes dourados">
+  <title>Cadeira clássica da El Brabo</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#151109"/>
+      <stop offset="100%" stop-color="#090909"/>
+    </linearGradient>
+    <linearGradient id="ouro" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F0CB7B"/>
+      <stop offset="45%" stop-color="#E1AE45"/>
+      <stop offset="100%" stop-color="#A87525"/>
+    </linearGradient>
+    <linearGradient id="couro" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2a2320"/>
+      <stop offset="100%" stop-color="#14100e"/>
+    </linearGradient>
+    <linearGradient id="aco" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#efece4"/>
+      <stop offset="100%" stop-color="#8d887e"/>
+    </linearGradient>
+    <pattern id="listras" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="24" height="24" fill="#100d0b"/>
+      <rect width="12" height="24" fill="#C9922F"/>
+    </pattern>
+    <radialGradient id="luz" cx="0.5" cy="0.4" r="0.7">
+      <stop offset="0%" stop-color="#E1AE45" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#090909" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="640" height="480" fill="url(#bg)"/>
+  <rect width="640" height="480" fill="url(#luz)"/>
+  <rect x="22" y="22" width="596" height="436" rx="8" fill="none" stroke="#A87525" stroke-width="1.6" opacity="0.55"/>
+
+  <!-- poste lateral -->
+  <rect x="62" y="150" width="28" height="200" rx="14" fill="url(#listras)" stroke="url(#ouro)" stroke-width="2.6"/>
+
+  <!-- piso -->
+  <rect x="22" y="404" width="596" height="54" fill="#0c0a08"/>
+  <rect x="22" y="402" width="596" height="4" fill="url(#ouro)"/>
+
+  <!-- cadeira -->
+  <g transform="translate(360 250)">
+    <ellipse cx="0" cy="150" rx="128" ry="16" fill="#000" opacity="0.55"/>
+    <!-- base -->
+    <path d="M -36,142 L -22,84 L 22,84 L 36,142 Z" fill="url(#aco)" opacity="0.85"/>
+    <rect x="-56" y="134" width="112" height="12" rx="6" fill="#2c2622"/>
+    <rect x="-16" y="70" width="32" height="18" rx="6" fill="#241f1b" stroke="#A87525" stroke-width="1.4"/>
+    <!-- apoio pés -->
+    <path d="M -84,58 C -60,42 -20,36 12,40" stroke="url(#ouro)" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <!-- assento -->
+    <rect x="-92" y="14" width="184" height="56" rx="22" fill="url(#couro)" stroke="url(#ouro)" stroke-width="2.6"/>
+    <!-- encosto -->
+    <rect x="-78" y="-124" width="156" height="140" rx="28" fill="url(#couro)" stroke="url(#ouro)" stroke-width="2.6"/>
+    <g stroke="#E1AE45" stroke-width="1" opacity="0.5" fill="none">
+      <path d="M -78,-70 L -26,-124 M -78,-16 L -26,-70 M -78,38 L -26,-16 M 78,-70 L 26,-124 M 78,-16 L 26,-70 M 78,38 L 26,-16"/>
+      <path d="M -78,-70 L -26,-16 M -78,-16 L -26,38 M 78,-70 L 26,-16 M 78,-16 L 26,38"/>
+    </g>
+    <!-- apoios de braço -->
+    <rect x="-124" y="-6" width="28" height="72" rx="13" fill="#241f1b" stroke="#A87525" stroke-width="1.6"/>
+    <rect x="96" y="-6" width="28" height="72" rx="13" fill="#241f1b" stroke="#A87525" stroke-width="1.6"/>
+    <!-- apoia-cabeça com brasão -->
+    <rect x="-44" y="-172" width="88" height="42" rx="13" fill="url(#couro)" stroke="url(#ouro)" stroke-width="2.4"/>
+    <g transform="translate(0 -151) scale(0.17)">
+      <circle r="120" fill="#0E0C0B" stroke="#E1AE45" stroke-width="18"/>
+      <path d="M -60,-14 C -62,-50 -34,-72 0,-72 C 34,-72 62,-50 60,-14 C 52,-36 38,-46 18,-48 C 29,-40 34,-30 32,-20 C 22,-38 4,-46 -14,-43 C -33,-40 -44,-28 -46,-14 Z" fill="#E8E5DF"/>
+      <path d="M -48,24 C -48,6 -34,-4 -20,-6 C -8,-8 0,0 8,0 C 16,0 28,-8 42,-6 C 56,-4 68,6 68,24 C 68,58 40,88 0,88 C -40,88 -68,58 -68,24 Z" fill="#E8E5DF"/>
+      <text y="14" text-anchor="middle" font-family="Georgia, serif" font-size="38" letter-spacing="4" fill="#D9D5CC">EL BRABO</text>
+    </g>
+  </g>
+
+  <!-- estrelas -->
+  <g fill="url(#ouro)">
+    <g transform="translate(530 96) scale(0.65)"><path d="M 0,-11 L 3.2,-3.4 L 11,-3.4 L 4.6,1.3 L 6.8,8.9 L 0,4.4 L -6.8,8.9 L -4.6,1.3 L -11,-3.4 L -3.2,-3.4 Z"/></g>
+    <g transform="translate(566 128) scale(0.5)"><path d="M 0,-11 L 3.2,-3.4 L 11,-3.4 L 4.6,1.3 L 6.8,8.9 L 0,4.4 L -6.8,8.9 L -4.6,1.3 L -11,-3.4 L -3.2,-3.4 Z"/></g>
+  </g>
+</svg>
